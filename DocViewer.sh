@@ -4,3 +4,5 @@ cp -f /Applications/Dictionary.app/Contents/Resources/Dictionary.icns /Developer
 
 DIR=`dirname $0`
 cp -f "$DIR/InfoPlist.strings" /Developer/Applications/DocViewer.app/Contents/Resources/English.lproj/InfoPlist.strings
+
+open /Developer/Applications/DocViewer.app
